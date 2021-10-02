@@ -19,3 +19,13 @@ production mode
 ``` 
 npm run start
 ```
+
+Demo available at heroku:
+```
+https://apiprojekt-piotr.herokuapp.com/
+```
+
+Swagger documentation
+```
+https://apiprojekt-piotr.herokuapp.com/api-docs
+```
