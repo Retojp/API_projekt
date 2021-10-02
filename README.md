@@ -3,9 +3,8 @@
 Basic API.
 Database powered by mongoDB.
 Required environment variables:
-DATABASE_URL - mongo database url address
-PORT
-
+- DATABASE_URL - mongo database url address
+- PORT
 Can browse collection of games.
 Can browse, dedlete, update specyfic game by id.
 
