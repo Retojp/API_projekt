@@ -6,7 +6,7 @@ const mongoose = require("mongoose")
 const swaggerJsDoc = require('swagger-jsdoc')
 const swaggerUI = require('swagger-ui-express')
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 5000
 
 const swaggerOptions = {
     swaggerDefinition: {
@@ -38,5 +38,5 @@ app.use(express.json())
 const gamesRouter = require("./routes/games")
 app.use('/games',gamesRouter)
 
-app.listen(3000, () => console.log("Server started"))
+app.listen(port, () => console.log("Server started"))
 
