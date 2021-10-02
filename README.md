@@ -11,7 +11,11 @@ Can browse, dedlete, update specyfic game by id.
 swagger documentation available at /api-docs
 
 development mode
-- npm run dev
+```
+npm run dev
+```
 
-production mode 
-- npm run start
+production mode
+``` 
+npm run start
+```
