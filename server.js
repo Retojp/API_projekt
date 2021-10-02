@@ -6,6 +6,8 @@ const mongoose = require("mongoose")
 const swaggerJsDoc = require('swagger-jsdoc')
 const swaggerUI = require('swagger-ui-express')
 
+const port = process.env.PORT || 3000
+
 const swaggerOptions = {
     swaggerDefinition: {
         openapi: "3.0.0",
