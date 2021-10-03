@@ -10,16 +10,6 @@ Can browse, dedlete, update specyfic game by id.
 
 swagger documentation available at /api-docs
 
-development mode
-```
-npm run dev
-```
-
-production mode
-``` 
-npm run start
-```
-
 Demo available at heroku:
 ```
 https://apiprojekt-piotr.herokuapp.com/
@@ -28,4 +18,25 @@ https://apiprojekt-piotr.herokuapp.com/
 Swagger documentation
 ```
 https://apiprojekt-piotr.herokuapp.com/api-docs
+```
+
+Installation:
+In cloned directory type 
+```
+npm install
+```
+
+In main directory create ".env" file and fill with environment variables.
+DATABASE_URL = mongo database url
+
+Run application using one of the following commands.
+
+development mode
+```
+npm run dev
+```
+
+production mode
+``` 
+npm run start
 ```
